@@ -1,7 +1,7 @@
 # AutiQuest
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-Submitted by: **Shivani Elitem, Hanvi Muppidi, Pranathi Sreepada, Aiswarya Atluri**
+Submitted by: **Shivani Elitem, Hanvitha Muppidi, Pranathi Sreepada, Aiswarya Atluri**
 ## Demo
 
 Here's a GIF that demos all of the app's implemented features:
