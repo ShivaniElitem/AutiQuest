@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".SeventhActivity">
+
+    <TextView
+        android:id="@+id/page7text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Match the Following:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <View
+        android:id="@+id/page7rec1"
+        android:layout_width="140sp"
+        android:layout_height="150sp"
+        android:background="@drawable/border1"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/page7image1"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:src="@drawable/happy"
+        app:layout_constraintStart_toStartOf="@+id/page7rec1"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec1"
+        app:layout_constraintTop_toTopOf="@+id/page7rec1"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec1" />
+
+    <View
+        android:id="@+id/page7rec2"
+        android:layout_width="140sp"
+        android:layout_height="150sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page7rec1" />
+
+    <ImageView
+        android:id="@+id/page7image2"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:src="@drawable/angry"
+        app:layout_constraintStart_toStartOf="@+id/page7rec2"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec2"
+        app:layout_constraintTop_toTopOf="@+id/page7rec2"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec2" />
+
+    <View
+        android:id="@+id/page7rec3"
+        android:layout_width="140sp"
+        android:layout_height="150sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page7rec2"/>
+
+    <ImageView
+        android:id="@+id/page7image3"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:src="@drawable/scared"
+        app:layout_constraintStart_toStartOf="@+id/page7rec3"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec3"
+        app:layout_constraintTop_toTopOf="@+id/page7rec3"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec3" />
+
+    <View
+        android:id="@+id/page7rec4"
+        android:layout_width="140sp"
+        android:layout_height="150sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page7rec3"/>
+
+    <ImageView
+        android:id="@+id/page7image4"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:src="@drawable/sad"
+        app:layout_constraintStart_toStartOf="@+id/page7rec4"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec4"
+        app:layout_constraintTop_toTopOf="@+id/page7rec4"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec4" />
+
+    <View
+        android:id="@+id/page7rec5"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page7rec1"
+        app:layout_constraintBottom_toBottomOf="@id/page7rec1"/>
+
+    <TextView
+        android:id="@+id/page7text2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/page7rec5"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec5"
+        app:layout_constraintTop_toTopOf="@+id/page7rec5"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec5" />
+
+    <View
+        android:id="@+id/page7rec6"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page7rec2"
+        app:layout_constraintBottom_toBottomOf="@id/page7rec2"/>
+
+    <TextView
+        android:id="@+id/page7text3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sad"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/page7rec6"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec6"
+        app:layout_constraintTop_toTopOf="@+id/page7rec6"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec6" />
+
+    <View
+        android:id="@+id/page7rec7"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page7rec3"
+        app:layout_constraintBottom_toBottomOf="@id/page7rec3"/>
+
+    <TextView
+        android:id="@+id/page7text4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Angry"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/page7rec7"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec7"
+        app:layout_constraintTop_toTopOf="@+id/page7rec7"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec7" />
+
+    <View
+        android:id="@+id/page7rec8"
+        android:layout_width="140sp"
+        android:layout_height="50sp"
+        android:background="@drawable/border1"
+        android:layout_marginTop="10dp"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/page7rec4"
+        app:layout_constraintBottom_toBottomOf="@id/page7rec4"/>
+
+    <TextView
+        android:id="@+id/page7text5"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Scared"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@+id/page7rec8"
+        app:layout_constraintEnd_toEndOf="@+id/page7rec8"
+        app:layout_constraintTop_toTopOf="@+id/page7rec8"
+        app:layout_constraintBottom_toBottomOf="@+id/page7rec8" />
+
+    <Button
+        android:id="@+id/page7button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:backgroundTint ="@color/purple_200"
+        android:layout_marginTop="10dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.95"/>
+
+    <ImageView
+        android:id="@+id/page7image5"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/rocketlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

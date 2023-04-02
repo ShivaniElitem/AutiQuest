@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".SixthActivity">
+
+    <View
+        android:id="@+id/page6rec1"
+        android:layout_width="350sp"
+        android:layout_height="175sp"
+        android:background="@drawable/border1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"/>
+
+    <TextView
+        android:id="@+id/page6text1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Emotional regulation is important for children to
+understand social cues, for it allows them to
+express themselves culturally and socially. Sorting
+through facial expression cards and labeling what
+each emotion is helps kids gain an understanding of
+when each emotion is expressed. Through this activity,
+children can practice using their emotions with a
+parent/guardian and start their journey for improved
+social interaction."
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@id/page6rec1"
+        app:layout_constraintEnd_toEndOf="@id/page6rec1"
+        app:layout_constraintTop_toTopOf="@id/page6rec1"
+        app:layout_constraintBottom_toBottomOf="@id/page6rec1" />
+
+    <View
+        android:id="@+id/page6rec2"
+        android:layout_width="350sp"
+        android:layout_height="125sp"
+        android:background="@drawable/border1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.85"/>
+
+    <TextView
+        android:id="@+id/page6text2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="For children, the key to learning and expressing emotions regularly in a proper manner has to come from repeated exposure. Due to this, it would be good practice to use this activity around the household daily to expose the children to the same emotions in different social settings."
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="@id/page6rec2"
+        app:layout_constraintEnd_toEndOf="@id/page6rec2"
+        app:layout_constraintTop_toTopOf="@id/page6rec2"
+        app:layout_constraintBottom_toBottomOf="@id/page6rec2" />
+
+    <ImageView
+        android:id="@+id/page6image1"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:src="@drawable/emotionchart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/page6rec1"
+        app:layout_constraintBottom_toTopOf="@+id/page6rec2" />
+
+    <ImageView
+        android:id="@+id/page6image2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/rocketlogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.005"/>
+
+    <Button
+        android:id="@+id/page6button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:backgroundTint ="@color/purple_200"
+        android:layout_marginTop="10dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintTop_toBottomOf="@id/page6rec2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
