@@ -4,7 +4,7 @@
 Submitted by: **Shivani Elitem, Hanvi Muppidi, Pranathi Sreepada, Aiswarya Atluri**
 ## Demo
 
-Here's a GIF and a Screenshot that demos all of the app's implemented features:
+Here's a GIF that demos all of the app's implemented features:
 
 <img src='https://github.com/ShivaniElitem/AutiQuest/blob/master/AutiQuest.gif?raw=true' title='Video Demo' width='' alt='Video Demo' /> 
 
